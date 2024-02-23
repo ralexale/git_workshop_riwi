@@ -8,13 +8,17 @@
     <title>Document</title>
   </head>
   <body>
-    <main class="flex w-screen h-screen p-0 m-0 justify-center items-center">
+    <main
+      class="flex bg-cover bg-center w-screen h-screen p-0 m-0 justify-center items-center"
+    >
       <div class="container flex w-[70%] h-[60%] relative">
         <div
           class="log_in transition-all flex flex-col gap-2 w-[50%] rounded-lg h-full justify-center items-center"
         >
-          <form class="form flex flex-col gap-2">
-            <p class="heading">Login</p>
+          <form
+            class="form translate-x-[150%] flex flex-col gap-2 p-10 rounded-3xl bg-white/10 backdrop-blur"
+          >
+            <p class="heading text-black pb-8 text-center font-bold">Login</p>
             <input class="input" placeholder="Username" type="text" />
             <input class="input" placeholder="Password" type="text" />
             <button class="btn">Submit</button>

@@ -1,10 +1,23 @@
-.title_login {
+.form {
+  transition: 0.4s ease-in-out;
+  box-shadow: rgba(0, 0, 0, 0.4) 1px 2px 2px;
   border: solid 1px red;
+}
+
+.form:hover {
+  transform: translateX(-0.5em) translateY(-0.5em);
+  border: 1px solid #171717;
+  box-shadow: 10px 10px 0px #00000094;
 }
 
 .log_in {
   border: solid 1px red;
 }
 
-.container{
-border: solid 1px red;}
+.container {
+  border: solid 1px red;
+}
+
+main {
+  background-image: url(../../public/images/login/bg_login.jpg);
+}
