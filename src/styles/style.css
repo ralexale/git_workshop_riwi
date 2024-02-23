@@ -1,0 +1,14 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+
+:root {
+    --smoke: #0B1517;
+    --green: #115E44;
+    --white: #fff
+}
