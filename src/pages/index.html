@@ -1,17 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-  </head>
-  <body>
-    <header
-      class="size-screen min-h-screen bg-[url('../../public/images/home/h.webp')]"
-    >
-      <div class="h-full w-full "></div>
-      <h2 class="text-6xl text-white">El crustáceo cascarudo</h2>
-    </header>
-  </body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+    </head>
+    <body class="overflow-x-hidden">
+        <header
+            class="size-screen min-h-screen relative flex text-center bg-[url('../../public/images/home/h.webp')]"
+        >
+            <div class="size-full bg-black/40 absolute top-0" />
+            <h2 class="text-6xl text-white mt-[15%] m-auto w-fit p-20 bg-red-300/20 backdrop-blur">
+                El crustáceo cascarudo
+            </h2>
+        </header>
+
+        <main class="w-screen min-h-[70vh] flex flex-col">
+            <section class="h-[50vh] relative w-full bg-white flex items-center justify-center">
+                <div
+                    class="w-[60%] absolute -top-20 bg-[#0B1517] text-white flex flex-col p-10 pb-24 items-center"
+                >
+                    <h2 class="self-start text-3xl">Nuestra misión</h2>
+                    <article class="w-full flex justify-between mt-10">
+                        <p class="text-pretty">
+                            En El Crustáceo Cascarudo, nuestra misión es más que simplemente servir
+                            hamburguesas. Nos esforzamos por ser el destino favorito de los amantes
+                            de la comida que buscan una experiencia gastronómica única y memorable.
+                            Nos comprometemos a ofrecer no solo deliciosas hamburguesas gourmet,
+                            sino también un ambiente acogedor y un servicio excepcional que deja una
+                            impresión duradera en cada uno de nuestros clientes.
+                        </p>
+                        <p class="text-pretty">
+                            Creemos en la calidad sin compromisos, utilizando solo los ingredientes
+                            más frescos y sabrosos en cada una de nuestras creaciones. Desde la
+                            selección de la carne hasta la elección de los acompañamientos y salsas,
+                            cada detalle se cuida meticulosamente para garantizar una explosión de
+                            sabor en cada bocado.
+                        </p>
+                    </article>
+
+                    <img
+                        class="absolute -bottom-full w-[80%] object-contain"
+                        src="../../public/images/home/burger2.jpg"
+                        alt="burger info"
+                    />
+                </div>
+            </section>
+        </main>
+
+        <footer class="h-[70vh] w-screen -bottom-[100%] -z-10 left-0">
+            <img
+                src="../../public/images/home/burgerss.jpg"
+                class="h-full w-full object-cover"
+                alt="bg"
+            />
+        </footer>
+    </body>
 </html>
